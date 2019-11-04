@@ -88,7 +88,7 @@ public class ConsoleList extends HttpServlet {
 			pw.print("<td><div id='shop_item'>");
 			pw.print("<h3>"+console.getName()+"</h3>");
 			pw.print("<strong>$"+console.getPrice()+"</strong><ul>");
-			pw.print("<li id='item'><img src='images/consoles/"+console.getImage()+"' alt='' /></li>");
+			pw.print("<li id='item'><img src='images/console/"+console.getImage()+"' alt='' /></li>");
 			
 			pw.print("<li><form method='post' action='Cart'>" +
 					"<input type='hidden' name='name' value='"+entry.getKey()+"'>"+

@@ -116,7 +116,7 @@ public class TelevisionList extends HttpServlet
 			pw.print("<td><div id='shop_item'>");
 			pw.print("<h3>"+television.getName()+"</h3>");
 			pw.print("<strong>$"+television.getPrice()+"</strong><ul>");
-			pw.print("<li id='item'><img src='images/televisions/"+television.getImage()+"' alt='' /></li>");
+			pw.print("<li id='item'><img src='images/television/"+television.getImage()+"' alt='' /></li>");
 			
 			pw.print("<li><form method='post' action='Cart'>" +
 					"<input type='hidden' name='name' value='"+entry.getKey()+"'>"+

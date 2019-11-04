@@ -117,7 +117,7 @@ public class HeadphoneList extends HttpServlet
 			pw.print("<td><div id='shop_item'>");
 			pw.print("<h3>"+headphone.getName()+"</h3>");
 			pw.print("<strong>$"+headphone.getPrice()+"</strong><ul>");
-			pw.print("<li id='item'><img src='images/headphones/"+headphone.getImage()+"' alt='' /></li>");
+			pw.print("<li id='item'><img src='images/headphone/"+headphone.getImage()+"' alt='' /></li>");
 			
 			pw.print("<li><form method='post' action='Cart'>" +
 					"<input type='hidden' name='name' value='"+entry.getKey()+"'>"+

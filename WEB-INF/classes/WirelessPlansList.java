@@ -95,7 +95,7 @@ public class WirelessPlansList extends HttpServlet
 			pw.print("<td><div id='shop_item'>");
 			pw.print("<h3>"+wirelessPlan.getName()+"</h3>");
 			pw.print("<strong>$"+wirelessPlan.getPrice()+"</strong><ul>");
-			pw.print("<li id='item'><img src='images/wirelessPlans/"+wirelessPlan.getImage()+"' alt='' /></li>");
+			pw.print("<li id='item'><img src='images/wirelessPlan/"+wirelessPlan.getImage()+"' alt='' /></li>");
 			
 			pw.print("<li><form method='post' action='Cart'>" +
 					"<input type='hidden' name='name' value='"+entry.getKey()+"'>"+

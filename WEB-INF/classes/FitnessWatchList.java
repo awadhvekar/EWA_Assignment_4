@@ -116,7 +116,7 @@ public class FitnessWatchList extends HttpServlet
 			pw.print("<td><div id='shop_item'>");
 			pw.print("<h3>"+fitnessWatch.getName()+"</h3>");
 			pw.print("<strong>$"+fitnessWatch.getPrice()+"</strong><ul>");
-			pw.print("<li id='item'><img src='images/fitnessWatches/"+fitnessWatch.getImage()+"' alt='' /></li>");
+			pw.print("<li id='item'><img src='images/fitnessWatch/"+fitnessWatch.getImage()+"' alt='' /></li>");
 			
 			pw.print("<li><form method='post' action='Cart'>" +
 					"<input type='hidden' name='name' value='"+entry.getKey()+"'>"+
